@@ -1,0 +1,72 @@
+/*Text CSS formatting*/
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+.title-super {
+    font-size: 64px;
+}
+
+.title-medium {
+    color: #7d97ad;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-heavy {
+    font-weight: bold;
+}
+
+/*Image CSS*/
+.img-center {
+    align-content: center;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+/*hr css formatting*/
+hr.line-break {
+    border: 0;
+    height: 4px;
+    background: #7d97ad;
+}
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #7d97ad;
+    color: #7d97ad;
+    text-align: center;
+}
+
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
